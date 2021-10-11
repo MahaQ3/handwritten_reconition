@@ -13,5 +13,5 @@ To solve this problem, I created a CNN LSTM model.
 2. two block from [conv2D,maxpoling2d ] layers to extract features. 
 3. reshape, dense and dropout layers to passing the output to RNN model.
 4. two layers from Bidirectional lstm.
-5. add input (label) and dense layers to extract the word.
-6. finally add CTC layer for calculating CTC loss at each step. 
+5. input (label) and dense layers to extract the word.
+6. finally , added CTC layer for calculating CTC loss at each step. 
